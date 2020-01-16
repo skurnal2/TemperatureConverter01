@@ -24,8 +24,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Y0-5a-4IW">
-                                <rect key="frame" x="20" y="240" width="374" height="30"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Y0-5a-4IW">
+                                <rect key="frame" x="160.5" y="240" width="93" height="30"/>
                                 <state key="normal" title="To Fahrenheit"/>
                                 <connections>
                                     <action selector="convertTemperature:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E1U-qy-wzc"/>
@@ -38,14 +38,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Phh-k7-uhj">
-                                <rect key="frame" x="20" y="202" width="374" height="30"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Phh-k7-uhj">
+                                <rect key="frame" x="171.5" y="202" width="71" height="30"/>
                                 <state key="normal" title="To Celcius"/>
                                 <connections>
                                     <action selector="convertTemperature:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ljy-Jh-LJt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6O7-Pi-Xoc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6O7-Pi-Xoc">
                                 <rect key="frame" x="20" y="289" width="374" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <nil key="textColor"/>
@@ -57,10 +57,13 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AAk-aX-Ap6" secondAttribute="trailing" constant="20" id="CJw-W6-Lud"/>
                             <constraint firstItem="AAk-aX-Ap6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="79" id="KB2-ZU-L15"/>
+                            <constraint firstItem="5Y0-5a-4IW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RqL-w5-hMD"/>
+                            <constraint firstItem="Phh-k7-uhj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="U8y-nb-aHW"/>
                             <constraint firstItem="Phh-k7-uhj" firstAttribute="top" secondItem="AAk-aX-Ap6" secondAttribute="bottom" constant="35" id="UyQ-yG-6gS"/>
                             <constraint firstItem="5Y0-5a-4IW" firstAttribute="top" secondItem="Phh-k7-uhj" secondAttribute="bottom" constant="8" id="luv-ti-m4A"/>
-                            <constraint firstItem="6O7-Pi-Xoc" firstAttribute="firstBaseline" secondItem="5Y0-5a-4IW" secondAttribute="baseline" constant="24.5" symbolType="layoutAnchor" id="q5S-ug-gPp"/>
+                            <constraint firstItem="6O7-Pi-Xoc" firstAttribute="firstBaseline" secondItem="5Y0-5a-4IW" secondAttribute="baseline" constant="52.5" symbolType="layoutAnchor" id="q5S-ug-gPp"/>
                             <constraint firstItem="AAk-aX-Ap6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ra0-Ec-LoO"/>
+                            <constraint firstItem="6O7-Pi-Xoc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wdc-42-3an"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
